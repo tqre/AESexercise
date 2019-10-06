@@ -7,7 +7,7 @@ and some of the mechanics were done with visualization in mind rather than effic
 CBC conversion is just a matter of xorring initialization vectors with the cipherblock before every round of crypting.
 
 However, the code constructs the AES substitution boxes instead using ready made boxes. The mathematics constructing 
-sboxes are rather complex, and understanding them might open opportunities to tweak those (probably breaking security further).
+sboxes are rather complex, including Galois' Field equations and affine transformations, and understanding them might open opportunities to customize the whole algorithm (most likely breaking the security further).
 
 https://www.cryptopals.com/
 
