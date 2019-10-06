@@ -1,4 +1,4 @@
-# AES algorithm (128-bit) with Python
+# AES algorithm (128-bit, ECB mode) with Python
 
 This is a slow implementation of Advanced Encryption Standard algorithm. The implementation is by no means secure,
 and some of the mechanics were done with visualization in mind rather than efficiency.
