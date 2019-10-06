@@ -6,3 +6,7 @@ and some of the mechanics were done with visualization in mind rather than effic
 However, the code constructs the AES substitution boxes instead using ready made boxes. The mathematics constructing 
 sboxes is rather complex, and this might open opportunities to tweak those (probably breaking security further).
 
+The project was insipired by cryptopals.com challenges, and was mainly done as an exercise to learn Python.
+
+https://www.cryptopals.com/
+
