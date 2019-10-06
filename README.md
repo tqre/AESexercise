@@ -3,7 +3,7 @@
 The project was insipired by cryptopals.com challenges, and was mainly done as an exercise to learn Python.
 
 This is a slow and bulky implementation of the Advanced Encryption Standard algorithm. The implementation is by no means secure,
-and some of the mechanics were done with visualization in mind rather than efficiency. The code works with ECB mode, but a
+and some of the mechanics were done with visualization in mind rather than efficiency. The code works in ECB mode, but a
 CBC conversion is just a matter of xorring initialization vectors appropriately on the right spot ;)
 
 However, the code constructs the AES substitution boxes instead using ready made boxes. The mathematics constructing 
