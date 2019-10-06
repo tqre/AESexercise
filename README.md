@@ -10,3 +10,4 @@ The project was insipired by cryptopals.com challenges, and was mainly done as a
 
 https://www.cryptopals.com/
 
+Last changes have been made around October 2018, and the project is not worked on anymore.
