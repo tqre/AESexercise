@@ -6,7 +6,7 @@ This is a slow and bulky implementation of the Advanced Encryption Standard algo
 and some of the mechanics were done with visualization in mind rather than efficiency. The code works in ECB mode, but a
 CBC conversion is just a matter of xorring initialization vectors appropriately on the right spot ;)
 
-However, the code constructs the AES substitution boxes instead using ready made boxes. The mathematics constructing 
+However, the code constructs the AES substitution boxes instead of using ready made boxes. The mathematics constructing 
 sboxes are rather complex, including Galois' Field equations and affine transformations, and tweaking them might open opportunities to customize the whole algorithm (most likely breaking the security further without proper analysis).
 
 https://www.cryptopals.com/
